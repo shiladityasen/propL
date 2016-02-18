@@ -1,0 +1,16 @@
+This is a library for evaluating well-formed propositional logic expressions.
+
+If the expression provided is not a well-formed formula, it throws an error with position of possible error.
+If the expression is a well-formed formula, it goes ahead to evaluate it.
+
+Evaluation is done in steps and the truth table is printed along with the evaluation at each step.
+
+At the end of the evaluation, information regarding validity and consistency of the expression is displayed.
+
+To run this software, from the terminal, do
+	
+		make
+		./propL
+		
+		
+make installs the software which can henceforth be run using ./propL
